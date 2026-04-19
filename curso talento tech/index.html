@@ -9,10 +9,12 @@
     <body>
         <header>
             <img src="images.png" alt="Logo del sitio web">
-           <h1><p>Bienvenidos a mi proyecto</p></h1>
+           <h1>Clase 1</h1>
+            <h1><p>Bienvenidos a mi proyecto</p></h1>
            <h2><em> Este es un subtitulo del header </em></h2>
         </header>
         <nav>
+            <h1>Clase 2</h1>
             <ul>
                 <li><a href="Clase 02.docx.pdf" download>Descargar documento</a><li>
                 <li>BATERIA DE DURACION LARGA</li>
@@ -36,6 +38,101 @@
                     </audio>
                 </section>
             </nav>
+
+            <nav>
+                <h1> clase 3</h1>
+                 <h1> Tablas</h1>
+                <table border="1"> 
+    <tr> 
+      <th>Nombre</th> 
+      <th>Edad</th> 
+      <th>Ciudad</th> 
+    </tr> 
+    <tr> 
+      <td>Ana</td> 
+      <td>25</td> 
+      <td>Madrid</td> 
+    </tr> 
+    <tr> 
+      <td>Juan</td> 
+      <td>30</td> 
+      <td>Barcelona</td> 
+    </tr> 
+  </table>
+  <h2> ejemplo 2 de tabla</h2>
+  <table border="1"> 
+    <tr> 
+      <th rowspan="2">Nombre</th> 
+      <th colspan="2">Contacto</th> 
+    </tr> 
+    <tr> 
+      <td>Teléfono</td> 
+      <td>Email</td> 
+    </tr> 
+    <tr> 
+      <td>Ana</td> 
+      <td>123456789</td> 
+      <td>ana@ejemplo.com</td> 
+    </tr> 
+  </table>
+  <h2> ejemplo 3 de tabla</h2>
+  <table border="1"> 
+    <caption>Notas por materia</caption> 
+    <thead> 
+        <tr> 
+            <th scope="col">Estudiante</th> 
+            <th scope="col">Materia</th> 
+            <th scope="col">Nota</th> 
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td rowspan="2">Ana</td> 
+            <td>Matemática</td> 
+            <td>9</td> 
+        </tr>
+        <tr>
+            <td>Lengua</td> 
+            <td>8</td>
+        </tr>
+        <tr>
+            <td colspan="2">Promedio general</td> 
+            <td>8.5</td> 
+        </tr>
+            <td>Lengua</td> 
+            <td>8</td> 
+            <td colspan="2">Promedio general</td> 
+            <td>8.5</td> 
+        </tr> 
+    </tbody>
+  </table>
+
+            </nav>
+    <nav>
+        <h1> formularios</h1>
+        <h2> EjEMPLO 1 FORMulario</h2>
+        <form action="/registro" method="post" autocomplete="on"> 
+<label>Nombre: <input type="text" name="nombre" required></label> 
+<br> 
+<label>Correo: <input type="email" name="correo" required></label> 
+<br> 
+<button type="submit">Enviar</button> 
+</form> 
+<h2> fORmulario con Formspree</h2>
+<h3> Con este te manda un mail al correo con los datos q pusistes</h3>
+<form action="https://formspree.io/f/xpqkrgyg" method="POST"> 
+<label>Nombre: 
+<input type="text" name="nombre" required> 
+</label><br> 
+<label>Email: 
+<input type="email" name="email" required> 
+</label><br> 
+<label>Mensaje: 
+<textarea name="mensaje" required></textarea> 
+</label><br> 
+<button type="submit">Enviar</button> 
+</form> 
+    </nav>
         <main>
          <p>Este es un párrafo de introducción sobre el proyecto. Aquí puedes 
 usar <strong>ya lo use </strong> <s>tachado</s>.</p> 
